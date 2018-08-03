@@ -1,0 +1,43 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = require("@angular/core");
+var VgEvents = (function () {
+    function VgEvents() {
+    }
+    VgEvents.VG_ABORT = 'abort';
+    VgEvents.VG_CAN_PLAY = 'canplay';
+    VgEvents.VG_CAN_PLAY_THROUGH = 'canplaythrough';
+    VgEvents.VG_DURATION_CHANGE = 'durationchange';
+    VgEvents.VG_EMPTIED = 'emptied';
+    VgEvents.VG_ENCRYPTED = 'encrypted';
+    VgEvents.VG_ENDED = 'ended';
+    VgEvents.VG_ERROR = 'error';
+    VgEvents.VG_LOADED_DATA = 'loadeddata';
+    VgEvents.VG_LOADED_METADATA = 'loadedmetadata';
+    VgEvents.VG_LOAD_START = 'loadstart';
+    VgEvents.VG_PAUSE = 'pause';
+    VgEvents.VG_PLAY = 'play';
+    VgEvents.VG_PLAYING = 'playing';
+    VgEvents.VG_PROGRESS = 'progress';
+    VgEvents.VG_RATE_CHANGE = 'ratechange';
+    VgEvents.VG_SEEK = 'seek';
+    VgEvents.VG_SEEKED = 'seeked';
+    VgEvents.VG_SEEKING = 'seeking';
+    VgEvents.VG_STALLED = 'stalled';
+    VgEvents.VG_SUSPEND = 'suspend';
+    VgEvents.VG_TIME_UPDATE = 'timeupdate';
+    VgEvents.VG_VOLUME_CHANGE = 'volumechange';
+    VgEvents.VG_WAITING = 'waiting';
+    VgEvents.VG_LOAD = 'load';
+    VgEvents.VG_ENTER = 'enter';
+    VgEvents.VG_EXIT = 'exit';
+    VgEvents.VG_START_ADS = 'startads';
+    VgEvents.VG_END_ADS = 'endads';
+    VgEvents.decorators = [
+        { type: core_1.Injectable },
+    ];
+    return VgEvents;
+}());
+exports.VgEvents = VgEvents;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidmctZXZlbnRzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsidmctZXZlbnRzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsc0NBQXlDOzs7O3dCQUlYLE9BQU87MkJBQ0osU0FBUzttQ0FDRCxnQkFBZ0I7a0NBQ2pCLGdCQUFnQjswQkFDeEIsU0FBUzs0QkFDUCxXQUFXO3dCQUNmLE9BQU87d0JBQ1AsT0FBTzs4QkFDRCxZQUFZO2tDQUNSLGdCQUFnQjs2QkFDckIsV0FBVzt3QkFDaEIsT0FBTzt1QkFDUixNQUFNOzBCQUNILFNBQVM7MkJBQ1IsVUFBVTs4QkFDUCxZQUFZO3VCQUNuQixNQUFNO3lCQUNKLFFBQVE7MEJBQ1AsU0FBUzswQkFDVCxTQUFTOzBCQUNULFNBQVM7OEJBQ0wsWUFBWTtnQ0FDVixjQUFjOzBCQUNwQixTQUFTO3VCQUVaLE1BQU07d0JBQ0wsT0FBTzt1QkFDUixNQUFNOzRCQUVELFVBQVU7MEJBQ1osUUFBUTs7Z0JBaEN2QyxpQkFBVTs7bUJBRlg7O0FBR2EsNEJBQVEiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge0luamVjdGFibGV9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuXG5ASW5qZWN0YWJsZSgpXG5leHBvcnQgY2xhc3MgVmdFdmVudHMge1xuICAgIHN0YXRpYyBWR19BQk9SVDogc3RyaW5nID0gJ2Fib3J0JztcbiAgICBzdGF0aWMgVkdfQ0FOX1BMQVk6IHN0cmluZyA9ICdjYW5wbGF5JztcbiAgICBzdGF0aWMgVkdfQ0FOX1BMQVlfVEhST1VHSDogc3RyaW5nID0gJ2NhbnBsYXl0aHJvdWdoJztcbiAgICBzdGF0aWMgVkdfRFVSQVRJT05fQ0hBTkdFOiBzdHJpbmcgPSAnZHVyYXRpb25jaGFuZ2UnO1xuICAgIHN0YXRpYyBWR19FTVBUSUVEOiBzdHJpbmcgPSAnZW1wdGllZCc7XG4gICAgc3RhdGljIFZHX0VOQ1JZUFRFRDogc3RyaW5nID0gJ2VuY3J5cHRlZCc7XG4gICAgc3RhdGljIFZHX0VOREVEOiBzdHJpbmcgPSAnZW5kZWQnO1xuICAgIHN0YXRpYyBWR19FUlJPUjogc3RyaW5nID0gJ2Vycm9yJztcbiAgICBzdGF0aWMgVkdfTE9BREVEX0RBVEE6IHN0cmluZyA9ICdsb2FkZWRkYXRhJztcbiAgICBzdGF0aWMgVkdfTE9BREVEX01FVEFEQVRBOiBzdHJpbmcgPSAnbG9hZGVkbWV0YWRhdGEnO1xuICAgIHN0YXRpYyBWR19MT0FEX1NUQVJUOiBzdHJpbmcgPSAnbG9hZHN0YXJ0JztcbiAgICBzdGF0aWMgVkdfUEFVU0U6IHN0cmluZyA9ICdwYXVzZSc7XG4gICAgc3RhdGljIFZHX1BMQVk6IHN0cmluZyA9ICdwbGF5JztcbiAgICBzdGF0aWMgVkdfUExBWUlORzogc3RyaW5nID0gJ3BsYXlpbmcnO1xuICAgIHN0YXRpYyBWR19QUk9HUkVTUzogc3RyaW5nID0gJ3Byb2dyZXNzJztcbiAgICBzdGF0aWMgVkdfUkFURV9DSEFOR0U6IHN0cmluZyA9ICdyYXRlY2hhbmdlJztcbiAgICBzdGF0aWMgVkdfU0VFSzogc3RyaW5nID0gJ3NlZWsnO1xuICAgIHN0YXRpYyBWR19TRUVLRUQ6IHN0cmluZyA9ICdzZWVrZWQnO1xuICAgIHN0YXRpYyBWR19TRUVLSU5HOiBzdHJpbmcgPSAnc2Vla2luZyc7XG4gICAgc3RhdGljIFZHX1NUQUxMRUQ6IHN0cmluZyA9ICdzdGFsbGVkJztcbiAgICBzdGF0aWMgVkdfU1VTUEVORDogc3RyaW5nID0gJ3N1c3BlbmQnO1xuICAgIHN0YXRpYyBWR19USU1FX1VQREFURTogc3RyaW5nID0gJ3RpbWV1cGRhdGUnO1xuICAgIHN0YXRpYyBWR19WT0xVTUVfQ0hBTkdFOiBzdHJpbmcgPSAndm9sdW1lY2hhbmdlJztcbiAgICBzdGF0aWMgVkdfV0FJVElORzogc3RyaW5nID0gJ3dhaXRpbmcnO1xuICAgIFxuICAgIHN0YXRpYyBWR19MT0FEOiBzdHJpbmcgPSAnbG9hZCc7XG4gICAgc3RhdGljIFZHX0VOVEVSOiBzdHJpbmcgPSAnZW50ZXInO1xuICAgIHN0YXRpYyBWR19FWElUOiBzdHJpbmcgPSAnZXhpdCc7XG5cbiAgICBzdGF0aWMgVkdfU1RBUlRfQURTOiBzdHJpbmcgPSAnc3RhcnRhZHMnO1xuICAgIHN0YXRpYyBWR19FTkRfQURTOiBzdHJpbmcgPSAnZW5kYWRzJztcbn1cbiJdfQ==

@@ -1,0 +1,7 @@
+describe('Videogular IMA Ads', function () {
+    it('Should be ok', function () {
+        expect("ok").toBe("ok");
+    });
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidmctaW1hLWFkcy5zcGVjLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsidmctaW1hLWFkcy5zcGVjLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFFBQVEsQ0FBQyxvQkFBb0IsRUFBRTtJQUMzQixFQUFFLENBQUMsY0FBYyxFQUFFO1FBQ2YsTUFBTSxDQUFDLElBQUksQ0FBQyxDQUFDLElBQUksQ0FBQyxJQUFJLENBQUMsQ0FBQztLQUMzQixDQUFDLENBQUM7Q0FDTixDQUFDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJkZXNjcmliZSgnVmlkZW9ndWxhciBJTUEgQWRzJywgKCkgPT4ge1xuICAgIGl0KCdTaG91bGQgYmUgb2snLCAoKSA9PiB7XG4gICAgICAgIGV4cGVjdChcIm9rXCIpLnRvQmUoXCJva1wiKTtcbiAgICB9KTtcbn0pO1xuIl19
